@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*--------
+     header
+------------------*/
+.title {
+    color: var(--Dark-01, #131313);
+    font-size: 45px;
+    font-weight: 900;
+}
+
+header {
+    background-color: #FF900E1A;
+}
+
+.container {
+    padding: 30px 0px 0px 0px;
+    width: 1440px;
+    margin: auto;
+}
+
+.text-primary {
+    color: var(--Dark-03, #727272);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: 0;
+    border: 1px solid #FF900E;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #8a8a8a;
+    border: 1px solid #FF900E;
+}
+.btn:active{
+    color: blue;
+}
+.btn:visited{
+    color: red;
+}
+.hbtn {
+    margin-bottom: 25px;
+}
+
+.q-dark3-title {
+    color: var(--Dark-03, #727272);
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.f-ff900e-title {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+/* nave start */
+.container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 50px 0px 116px 0px; */
+    margin-bottom: 116px;
+}
+
+.container nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+.container nav ul li {
+    list-style: none;
+}
+
+.container nav ul li a {
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.container nav ul li a:hover{
+    color: #979595;
+}
+.container nav ul li a:active{
+color: blue;
+}
+.container nav ul li a:visited{
+    color: red;
+}
+/* nav done */
+.brand-title {
+    width: 862px;
+    margin: auto;
+    text-align: center;
+}
+
+.p-text {
+    margin: 32px 0px;
+}
+
+.brand-title h3 {
+    color: var(--Dark-01, #131313);
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.container img {
+    width: 100%;
+    /* margin: 70px 0px 45px 0px; */
+}
+
+.himg {
+    margin-bottom: 54px;
+}
+
+/* header end */
+/* team work features */
+.about-feature {
+    display: flex;
+    margin: 85px 301px 0px;
+    align-items: center;
+    gap: 76px;
+
+}
+
+.feature-banners {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.feature-info {
+    text-align: left;
+}
+
+/* team work features end */
+/* service list start */
+.service {
+    margin-top: 130px;
+    /* background-color: #dcdcf8; */
+    display: flex;
+    gap: 146px;
+}
+
+.sdt {
+    margin: 10px 0px 10px 0px;
+    padding-left: 21px;
+    border-left: 4px solid #FF900E;
+    width: 468px;
+}
+
+.service-details {
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.service-title {
+    color: var(--Dark-01, #131313);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.service-detail {
+    color: var(--Dark-03, #727272);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* architect */
+.architect {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.architect img {
+    width: 708px;
+    margin-top: -30px;
+}
+
+.about-experience {
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    background: #FF900E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: -97px;
+    left: -80px;
+}
+
+.experience-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.experience-text {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+/* service list end */
+/* about fact */
+.fax-t {
+    margin-top: 130px;
+}
+
+.f-text {
+    width: 542px;
+    margin-top: 24px;
+}
+
+.facts {
+    margin: 100px 301px 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fact {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    width: 241.831px;
+    height: 241.831px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact img {
+    width: 45.221px;
+    height: 45.221px;
+
+}
+
+.fact-degit {
+    color: var(--Dark-02, #424242);
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.fact-text {
+    color: var(--Dark-03, #727272);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* about sponsars */
+.sponsers-container {
+    width: 542px;
+    text-align: center;
+    margin: auto;
+}
+
+.spt {
+    margin: 10px 0px 50px;
+}
+
+.sponsers-cntinr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsers-img {
+    width: 166.757px;
+    height: 50px;
+}
+
+/* about-sopnser end */
+/* footer-start */
+.ftr {
+    margin: 130px auto 216px;
+    width: 1440px;
+    height: 100px;
+    background-color: #FFF4E7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+
+}
+/* responisive */
+@media only screen and (max-width:576px) {
+    .hd{
+        display: none;
+    }
+    *{
+        padding: 3px;
+    }
+    .title{
+        font-size: 27px;
+    }
+    .container,
+    .brand-title,
+    .sdt,
+    .architect img,
+    .f-text,
+    .sponsers-container,
+    .team-1 img{
+        width: 100%;
+    }
+    .brand-title h3{
+        font-size: 35px;
+    }
+    .container nav, 
+    .container nav ul,
+    .about-feature,
+    .service,
+    .architect,
+    .facts,
+    .sponsers-cntinr {
+        flex-direction: column;
+    }
+    .feature-banners{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container nav {
+        align-items: flex-start;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .container nav ul{
+        gap: 5px;
+    }
+    .about-feature,
+    .facts{
+        margin: auto;
+        
+    }
+    .feature-info{
+        text-align: center;
+    }
+   .about-experience{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: 20px;
+    width: 100%;
+
+   }
+   .text-primary{
+    text-align: justify;
+   }
+    .left{
+        text-align: justify;
+        padding: 10px;
+    }
+    .sponsers-cntinr
+{
+        align-items: center;
+        row-gap: 50px;
+    }
+    .facts{
+        padding: 0px;
+    }
+}
